@@ -5,27 +5,31 @@ body{
 }
 
 #intro{
-    background: url(../img/img01.png) 50% 0 fixed;
+    background: url(../imagenes/imagen4.jpg) 50% 0 fixed;
     background-size: cover;
     min-height: 900px;
     width: 100%;
 }
 
 #bloque-img2{
-    background: url(../img/img02.png) 50% 0 fixed;
+    background: url(../imagenes/imagen4.jpg) 50% 0 fixed;
     background-size: cover;
     height: 600px;
  }  
 
 #bloque-img3 {
-    background: url(../img/img03.png) 50% 0 fixed;
+    background: url(../imagenes/imagen4.jpg) 50% 0 fixed;
     background-size: cover;
     height: 600px;
 }
 
 .bloque{
-    background-color: black;
-    margin: 0 auto;
+    background: url(../imagenes/imagen4.jpg) 50% 0 fixed;
+
+    background-size: cover;
+    min-height: 900px;
+    width: 100%;
+
 }
 
 .texto{
@@ -38,4 +42,13 @@ h2{
     font-size: 50px;
     text-shadow: 0 3px 4px black;
 
+}
+
+h3{
+    font-size: 40px;
+    text-shadow: 0 3px 4px black;
+}
+
+img{
+    
 }
