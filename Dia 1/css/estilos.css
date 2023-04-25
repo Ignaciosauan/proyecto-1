@@ -39,16 +39,22 @@ body{
 }
 
 h2{
-    font-size: 50px;
+    font-size: 60px;
     text-shadow: 0 3px 4px black;
 
 }
 
 h3{
-    font-size: 40px;
+    font-size: 60px;
     text-shadow: 0 3px 4px black;
 }
 
 img{
-    
+    padding: 500px;
+    min-height: 300px;
+    width: 50%;
+    padding-top: 300px;
+}
+h4,h5,h6{
+    font-size: 25px;
 }
