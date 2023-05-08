@@ -3,28 +3,48 @@ body{
     padding: 0;
     font-family: arial;
 }
+header{
+    background-color:black;
+    
+}
+nav{
+    background-color: #4c76a5;
+    
+}
+nav ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
 
 #intro{
-    background: url(../imagenes/imagen4.jpg) 50% 0 fixed;
+    background: url(../imagenes/FONDO.jpg) 50% 0 fixed;
     background-size: cover;
     min-height: 900px;
     width: 100%;
 }
 
 #bloque-img2{
-    background: url(../imagenes/imagen4.jpg) 50% 0 fixed;
+    background: url(../imagenes/FONDO.jpg) 50% 0 fixed;
     background-size: cover;
     height: 600px;
+    
  }  
 
-#bloque-img3 {
-    background: url(../imagenes/imagen4.jpg) 50% 0 fixed;
-    background-size: cover;
-    height: 600px;
-}
-
 .bloque{
-    background: url(../imagenes/imagen4.jpg) 50% 0 fixed;
+    background: url(../imagenes/FONDO.jpg) 50% 0 fixed;
 
     background-size: cover;
     min-height: 900px;
